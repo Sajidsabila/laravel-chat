@@ -72,7 +72,8 @@
                     <div class="grid grid-cols-12">
                         <input type="text"autocomplete="off" autofocus placeholder="tulis pesan...." maxlength="1700"
                             class="col-span-10 bg-gray-100 border-0 outline-0 focus:border-0 focus:ring-0 hover:ring-0 rounded-lg focus:outline-none">
-                        <button class="col-span-2 btn btn-primary" type="submit">Kirim</button>
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            type="submit">Kirim</button>
                     </div>
                 </form>
                 @error('body')
